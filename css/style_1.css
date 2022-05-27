@@ -203,7 +203,7 @@ table th{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-
+    flex-flow: nowrap;
 }
 
 .texto_footer{
@@ -228,7 +228,7 @@ table th{
 }
 .copyright {
 	width: 6%;
-    padding-right: 0.2em;
+    padding-right: 0.1em;
 }
 /*fim footer*/
 @media (max-width: 900px){
