@@ -133,7 +133,7 @@ table th{
     
     width: auto;
     display: block;
-    padding: 15px 10px;
+    padding: 10px;
     background: #1351d8;
     color: white;
     font-weight: bold;
@@ -199,7 +199,7 @@ table th{
 /*footer*/
 .flex_footer {
 	background: #1B357E;
-	padding: 1em 2em;
+	
     position: fixed;
     bottom: 0;
     left: 0;
@@ -223,12 +223,12 @@ table th{
     align-items: center;
     justify-content: flex-start;
     flex-flow: nowrap;
-    gap: 0.2em;
+    gap: 0.5em;
 }
 
 .redes_sociais{
      width: 15%;
-     margin-left: 5px;
+     margin-left: 10px;
 }
 #width_copyright{
     width: 100%;
@@ -239,7 +239,7 @@ table th{
     padding-right: 0.1em;
 }
 /*fim footer*/
-@media (max-width: 900px){
+@media screen and (max-width: 900px){
     html, main, body, .flex_header, .flex_menu, .flex_main, .flex_footer, .texto_footer, .flex_redes, .copyright{
         width: auto;
     }
