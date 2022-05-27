@@ -193,7 +193,7 @@ table th{
 /*footer*/
 .flex_footer {
 	background: #1B357E;
-	padding: 10px;
+	padding: 10px 20px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -246,7 +246,6 @@ table th{
         height: 90vh;
         flex-flow: column;
         justify-content: center;
-        margin: auto;
     }
     .imagem_1 {
         width: 100%;
