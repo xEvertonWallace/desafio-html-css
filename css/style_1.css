@@ -123,9 +123,9 @@ table th{
 
 .comparar{
     
-    width: 20%;
+    width: auto;
     display: block;
-    padding: 15px 0;
+    padding: 15px 10px;
     background: #1351d8;
     color: white;
     font-weight: bold;
