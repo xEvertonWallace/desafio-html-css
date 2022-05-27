@@ -7,12 +7,16 @@
     list-style-type: none;
     text-decoration: none;
 }
+html{
+    font-size: 63%;
+}
 body {
     height: 100%;
-    margin-bottom: 6rem;
+    margin-bottom: 6em;
 }
 
 header {
+    padding: 5px 0;
     box-shadow: 0 1px #CCCCCC;
 }
 
@@ -32,6 +36,8 @@ nav {
 .flex_menu {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
 }
 
 nav li{
@@ -193,7 +199,7 @@ table th{
 /*footer*/
 .flex_footer {
 	background: #1B357E;
-	padding: 10px 20px;
+	padding: 1em 2em;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -207,7 +213,7 @@ table th{
 }
 
 .texto_footer{
-     height: auto;
+    height: auto;
     color: #FFFFFF;
     font-size: 0.8em;
 }
@@ -234,7 +240,7 @@ table th{
 }
 /*fim footer*/
 @media (max-width: 900px){
-    body, .flex_header, .flex_menu, .flex_main, .flex_footer, .texto_footer, .flex_redes, .copyright{
+    html, main, body, .flex_header, .flex_menu, .flex_main, .flex_footer, .texto_footer, .flex_redes, .copyright{
         width: auto;
     }
     .flex_menu {
