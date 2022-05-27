@@ -147,7 +147,7 @@ table th{
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-    margin: 30px auto;
+    margin: 50px auto;
     gap: 40px;
     align-items: flex-start;
 }
