@@ -8,11 +8,11 @@
     text-decoration: none;
 }
 body {
-    margin-bottom: 6em;
+    height: 100%;
+    margin-bottom: 6rem;
 }
 
 header {
-    background-color: #FFFFFF;
     box-shadow: 0 1px #CCCCCC;
 }
 
@@ -74,6 +74,7 @@ nav a:hover {
     padding: 5px 0;
 }
 .flex_lancamento{
+    width: 100%;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -143,6 +144,7 @@ table th{
 
 /*main contato*/
 .flex_contato {
+    width: 100%;
     display: flex;
     flex-flow: wrap;
     justify-content: center;
