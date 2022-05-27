@@ -86,18 +86,17 @@ nav a:hover {
 }
 
 .flex_veiculos {
+    width: 100%;
     display: flex;
     flex-flow: wrap;
-    justify-content:center;
+    justify-content: space-around;
 
 }
 
 .alinhamento_veiculos{
     display: flex;
     flex-flow: column;
-    align-items: center;
-    padding-left: 80px;
-    
+    align-items: center; 
 }
 
 table th{
