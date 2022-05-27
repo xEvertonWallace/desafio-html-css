@@ -1,0 +1,193 @@
+body {
+	
+	font-family: Arial;
+}
+
+/* Inicio header*/
+header{
+	padding: 10px 0;
+}
+
+.logo {
+	float: left;
+	
+}
+
+nav{
+	position: relative;
+	top: 50px;
+	text-align: center;
+	
+}
+nav li{
+	display: inline;
+	margin: 0 30px 0 0px;
+}
+nav a{
+	text-transform: capitalize;
+	color: #1351d8;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+	
+}
+
+/* Fim header*/
+/*main home*/
+.imagem_1 {
+	width: 70%;
+	margin: 20px 230px 10px 230px;
+
+}
+
+.descricao_home {
+	text-align: center;
+	margin: 10px 0;
+}
+/* fim main home*/
+
+/*main lançamento*/
+.video {
+	position: relative;
+	height: 406px;
+	margin: 40px 0;
+
+}
+table {
+	margin: auto;
+}
+td {
+	float: left;
+	color: #1351d8;
+	font-size: 20px;
+		
+		
+}
+
+.img{
+
+	margin-right: 100px;
+}
+
+.text {
+	margin-left: 20px;
+	margin-right: 80px;
+}
+
+.checkbox input{
+	min-width: 30px;
+    min-height: 30px;
+    
+}
+.info{
+	float: right;
+}
+.comparar{
+	
+	width: 20%;
+	display: block;
+	padding: 15px 0;
+	background: #1351d8;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin: 30px auto;
+}
+
+.comparar:hover {
+	background:  #1351d8;
+	transform: scale(1.2);
+}
+
+/* fim main lançamento*/
+
+/*Footer*/
+
+.flex_footer {
+	background: #1B357E;
+	padding: 1rem 2rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.flex_redes {
+	display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.4em;
+    color: #FFFFFF;
+}
+
+.copyright {
+	width: 6%;
+    padding-right: 3em;
+}
+
+/*responsivo*/
+
+@media (max-width: 480px){
+
+.logo {
+		display: block;
+		margin: 0 80px;
+		width: 60%;
+	}
+.imagem_1 {
+	width: 100%;
+	margin: 40px auto 10px auto;
+}
+nav{
+	position: relative;
+	top: 20px;
+	margin-left: 15px;
+}
+
+.box {
+	position: relative;
+    width: auto;
+    margin: 30px;
+    font-size: 20px;
+}
+
+footer {
+	background: #1b357e;
+	color: #FFFFFF;
+	padding: 55px 0;
+}
+
+footer p {
+	font-size: 15px;
+	float: left;
+}
+
+.redes_sociais {
+	margin-right: 15px;
+}
+
+.logo_rodape {
+	width: auto;
+	margin: 10px 50px 0px 20px;
+}
+
+.video{
+	float: left;
+	width: auto;
+	height: auto;	
+}

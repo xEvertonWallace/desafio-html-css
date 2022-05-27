@@ -3,38 +3,44 @@
 <html lang="pt-br">
 
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+		<meta http-equiv="X-UA-compatible" content="IE=edge">
 		<title>Home</title>
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style_1.css">	
 	</head>
 	<body>
 		<header>
-			<h1><img class="logo" src="img/logo-ford-256.png"></h1>
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="lançamento.html">Lançamento</a></li>
-						<li><a href="contato.html">Contatos</a></li>
-					</ul>
-				</nav>
-		</header>
-		<main>			
-			<a href="lançamento.html"><img class="imagem_1" src="img/imagem_1.jpg" alt="Imagem da nova Ranger Black "></a>
-			<p class="box">A Nova Ranger oferece uma linha de motorizações e transmissões para os diferentes tipos de uso:
-				<br>
-					2.2 Diesel Duratorq com Transmissão manual ou automática de 6 velocidades, <br>
-					3.2 Diesel Duratorq com Transmissão automática de 6 velocidades.
-					Descubra outras vantagens que fazem dela uma verdadeira picape Raça Forte clicando<a href="lançamento.html"> aqui.</a></p>	
+				<div class="flex_header">
+					<h1 ><img src="img/logo-ford-256.png"></h1>
+						<nav>
+							<ul class="flex_menu">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="lançamento.html">Lançamento</a></li>
+								<li><a href="contato.html">Contatos</a></li>
+							</ul>
+						</nav>
+				</div>
+		</header>		
+		<main>
+			<div class="flex_main">
+				<a href="lançamento.html"><img class="imagem_1" src="img/imagem_1.jpg" alt="Imagem da nova Ranger Black "></a>
+				<p>A <strong>Nova Ranger </strong>oferece uma linha de motorizações e transmissões para os diferentes tipos de uso. Descubra clicando<a href="lançamento.html"> aqui.</a></p>	
+			</div>			
+			
 		</main>
 		<footer>
-			<p>Redes Sociais</p>
-			<a href="https://pt-br.facebook.com/FordBrasil/"><img src="img/facebook-50.png"></a>
-			<a href="https://www.youtube.com/user/fordbrasil/videos"><img src="img/youtube-squared-50.png"></a>
-			<a href="https://www.instagram.com/fordbrasil/"><img src="img/instagram-logo-50.png"></a>
-			<img class="logo_rodape" src="img/ford-96.png">
+			<div class="flex_footer">
+				<div class="flex_redes">
+					<p class="texto_footer">Redes Sociais</p>
+					<a href="https://pt-br.facebook.com/FordBrasil/" class="redes_sociais"><img src="img/facebook-50.png" alt="Facebook"></a>
+					<a href="https://www.youtube.com/user/fordbrasil/videos" class="redes_sociais"><img src="img/youtube-squared-50.png" alt="YouTube"></a>
+					<a href="https://www.instagram.com/fordbrasil/" class="redes_sociais"><img src="img/instagram-logo-50.png" alt="Instagram"></a>
+				</div>
+				<div class="copyright">
+					<img class="logo_rodape" src="img/ford-96.png" id="width_copyright">		
+				</div>			
+			</div>		
 		</footer>
 	</body>
 	</html>

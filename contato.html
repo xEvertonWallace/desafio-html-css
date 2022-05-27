@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contato</title>
+		<link rel="stylesheet" href="css/style_1.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="flex_header">
+				<h1 ><img src="img/logo-ford-256.png"></h1>
+					<nav>
+						<ul class="flex_menu">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="lançamento.html">Lançamento</a></li>
+							<li><a href="contato.html">Contatos</a></li>
+						</ul>
+					</nav>
+			</div>
+		</header>	
+		<main>
+			<div class="flex_contato">
+				<img src="img/xls 2.2 diesel.jpg" alt="Imagem Ranger XLS 2.2 Diesel 4x2 AT" class="img_contato">
+				<form class="flex_form">
+					<h3>Sobre Você</h3> <br>	
+					<input type="text" id="nome" class="input_padrao" required placeholder="NOME*">
+					<input type="email" id="email" class="input_padrao" required placeholder="EMAIL*">
+					<input type="text" id="CPF/CNPJ" class="input_padrao" required placeholder="CPF/CNPJ*">
+					<input type="text" id="sobrenome" class="input_padrao" required placeholder="SOBRENOME*">
+					<input type="tel" id="telefone" class="input_padrao" required placeholder="TELEFONE*">
+					<select class="input_padrao">
+						<option>
+							QUAL O TIPO DE CONTATO?
+						</option>
+						<option value="0">ELOGIO</option>
+						<option value="1">RECLAMAÇÃO</option>
+						<option value="2">SOLICITAÇÃO</option>	
+					</select>
+					<textarea cols="35" rows="5" id="mensagem" class="input_padrao" required placeholder="Escreva sua mensagem aqui."></textarea>
+					<input type="submit" value="Enviar" class="enviar_formulario">
+				</form>
+			</div>
+			
+		</main>
+		<footer>
+			<div class="flex_footer">
+				<div class="flex_redes">
+					<p class="texto_footer">Redes Sociais</p>
+					<a href="https://pt-br.facebook.com/FordBrasil/" class="redes_sociais"><img src="img/facebook-50.png" alt="Facebook"></a>
+					<a href="https://www.youtube.com/user/fordbrasil/videos" class="redes_sociais"><img src="img/youtube-squared-50.png" alt="YouTube"></a>
+					<a href="https://www.instagram.com/fordbrasil/" class="redes_sociais"><img src="img/instagram-logo-50.png" alt="Instagram"></a>
+				</div>
+				<div class="copyright">
+					<img class="logo_rodape" src="img/ford-96.png" id="width_copyright">		
+				</div>			
+			</div>		
+		</footer>
+	</body>
+	</html>
